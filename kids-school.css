@@ -72,3 +72,36 @@ body{
 #admission{
     color: #5D58EF;
 }
+
+/* Hero section Styles */
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.hero-content{
+    max-width: 640px;
+}
+.hero-content h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 3.8125rem;
+    color: #111111;
+}
+.hero-content p{
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #111111;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.hero-content button{
+    background-color: #111111;
+}
+.hero-banner img{
+    width: 100%;
+}
