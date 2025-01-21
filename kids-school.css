@@ -6,6 +6,16 @@
   font-weight: 400;
   font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-font {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Sheared styles */
 
@@ -25,6 +35,26 @@ body{
     font-size: 1.25rem;
     line-height: 1.875rem;
     color: #ffffff;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 2.875rem;
+    line-height: 3.59375rem;
+    color: #000000;
+    text-align: center;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 1.5325rem;
+    line-height: 1.91875rem;
+    color: #202020;
+    text-align: center;  
+}
+.card-description{
+    font-weight: 500;
+    font-size: 0.943125rem;
+    line-height: 1.76875rem;
+    color: #808080;
 }
 /* Navbar Styles */
 
@@ -81,7 +111,6 @@ body{
     gap: 50px;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 60px;
 }
 .hero-content{
     max-width: 640px;
@@ -104,4 +133,65 @@ body{
 }
 .hero-banner img{
     width: 100%;
+}
+
+/* Curriculum Section Styles */
+
+.curriculum-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(assets/bg.png);
+}
+.curriculum-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 28px;
+    text-align: center;
+}
+.curriculum-item{
+    padding: 52px 40px;
+    border-radius: 18.86px;
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+.curriculum-item p{
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+.curriculum-item a{
+    font-weight: 700;
+    font-size: 0.943125rem;
+    line-height: 1.76875rem;
+    color: #808080;
+    text-decoration: none;
+}
+#kinder{
+    background: linear-gradient(rgba(222, 245, 255, 1) 0%,rgba(255, 255, 255, 0) 40%) ;
+}
+#elementary{
+    background: linear-gradient(rgba(255, 244, 220, 1) 0%, rgba(255, 255, 255, 0) 40%);
+}
+#middle{
+    background: linear-gradient(rgba(238, 225, 255, 1) 0%, rgba(255, 255, 255, 0) 40%);  
+}
+.dual-icon{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.dual-icon i{
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #FEA301;
+    border-radius: 50%;
+}
+.fa{
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
