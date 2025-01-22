@@ -210,3 +210,52 @@ nav{
 .fa{
     font-size: 24px;
 }
+
+/* Footer section styles */
+
+.footer-section{
+    background-color: #01ACFD;
+}
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    padding: 125px 140px;
+    
+}
+.footer-branding{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.footer-branding img{
+    height: 82px;
+    width: 82px;
+}
+.footer-branding h3{
+    font-weight: 700;
+    font-size: 2.63375rem;
+    line-height: 2.468rem;
+    color: #ffffff;
+    font-family: quicksand;
+}
+.footer-item p{
+    font-weight: 400;
+    font-size: 1.25rem;
+    font-family: quicksand;
+    color: #ffffff;
+    max-width: 400px;
+    margin-top: 35px;
+}
+.footer-item h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+.footer-item li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
