@@ -70,6 +70,9 @@ section{
 
 /* Navbar Styles */
 
+.mobile-nav{
+    display: none;
+}
 nav{
     padding: 20px 0;
 }
@@ -79,6 +82,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     gap: 186px;
+    margin: 0 auto;
 }
 .nav-branding{
     display: flex;
@@ -128,6 +132,7 @@ nav{
     justify-content: space-between;
     gap: 50px;
     align-items: center;
+    margin: 0 auto;
 }
 .hero-content{
     max-width: 640px;
@@ -153,6 +158,7 @@ nav{
 
 .curriculum-container{
     max-width: 1160px;
+    margin: 0 auto;
 }
 .curriculum-items{
     display: grid;

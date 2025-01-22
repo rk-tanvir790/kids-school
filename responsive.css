@@ -10,8 +10,25 @@
     .section-title{
         font-size: 1.625rem;
     }
-    nav{
+
+    /* for navbar */
+    .navbar{
         display: none;
+    }
+    .mobile-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 0.5px solid #FEA301;
+        padding: 12px 16px;
+    }
+    .mobile-nav img{
+        width: 46px;
+        height: 46px;
+    }
+    .mobile-nav .fa{
+        width: 30px;
+        height: 30px;
     }
 
     /* For Hero Section */
