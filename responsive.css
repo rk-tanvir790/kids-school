@@ -1,0 +1,48 @@
+/* Responsive For Small Devices */
+
+@media screen and (max-width:576px) {
+    
+    /* For sheared Styles */
+    section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .section-title{
+        font-size: 1.625rem;
+    }
+    nav{
+        display: none;
+    }
+
+    /* For Hero Section */
+
+    .hero-container{
+        flex-direction: column-reverse;
+        gap: 20px;
+        padding: 20px;
+    }
+    .hero-content{
+        text-align: center;
+    }
+    .hero-content h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+    .hero-content p{
+        font-size: 0.875rem;
+    }
+
+    .hero-banner img{
+        width: 100%;
+    }
+
+    /* For Curriculum Section */
+
+    .curriculum-items{
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px 16px;
+    }
+    .dual-icon{
+        display: none;
+    }
+}
